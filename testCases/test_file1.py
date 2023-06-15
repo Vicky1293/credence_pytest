@@ -18,6 +18,7 @@ class Test_py:
         else:
             assert False
 
+    @pytest.mark.group1
     @pytest.mark.group2
     def test_mul_002(self):
         a = 2
